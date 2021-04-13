@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-from paths import *
-
 from flask_wtf import FlaskForm
 from flask import Flask, render_template, request, url_for, jsonify
 from wtforms import SelectField
