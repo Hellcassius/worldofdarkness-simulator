@@ -1,0 +1,32 @@
+html {
+    margin: auto;
+    max-width: 1200px;
+}
+
+body {
+    background-color: rgb(214, 169, 110);
+}
+
+.text-title {
+    font-family: Montserrat, sans-serif;
+    color: #535252;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+/* .responsive-map iframe {
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;
+}
+
+@media (min-width: 800px) {
+    .responsive-map iframe {
+        height: 700px;
+    }
+} */
