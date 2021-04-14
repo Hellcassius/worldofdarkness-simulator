@@ -1,15 +1,17 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
 
-{% block head %} 
+{% block head %}
 
-{% endblock head %} 
+{% endblock head %}
 
 
-{% block body %} 
+{% block body %}
 <p class="text-title">HELLO WORLD OF DARKNESS</p>
+<iframe src="{{ url_for('show_sheet') }}" frameborder="0" class="ficha"></iframe>
+<iframe src="{{ url_for('show_roll') }}" frameborder="0"></iframe>
+
 {% endblock body %}
 
-{% block script %} 
+{% block script %}
 
 {% endblock script %}
-

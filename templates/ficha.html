@@ -1,0 +1,58 @@
+<form class="form-inline" method="POST" action="/show_sheet">
+    {{ form.csrf_token }}
+    <div class="row justify-content-center mb-5">
+        <div class=".col-sm-6">
+            <label class="label-text">Name</label>
+            {{ form.name(class="form-control") }}
+        </div>
+        <div class=".col-sm-6">
+            <label class="label-text">Player</label>
+            {{ form.player(class="form-control") }}
+        </div>
+        <div class="row justify-content-left mb-5">
+            <div class=".col-sm-6">
+                <label class="label-text">FOR</label>
+                {{ form.forca(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">DEX</label>
+                {{ form.destreza(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">STA</label>
+                {{ form.vigor(class="form-control") }}
+            </div>
+        </div>
+        <div class="row justify-content-left mb-5">
+            <div class=".col-sm-6">
+                <label class="label-text">CHA</label>
+                {{ form.carisma(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">MAN</label>
+                {{ form.manipulacao(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">COM</label>
+                {{ form.compostura(class="form-control") }}
+            </div>
+        </div>
+        <div class="row justify-content-left mb-5">
+            <div class=".col-sm-6">
+                <label class="label-text">PER</label>
+                {{ form.percepcao(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">INT</label>
+                {{ form.inteligencia(class="form-control") }}
+            </div>
+            <div class=".col-sm-6">
+                <label class="label-text">WIT</label>
+                {{ form.raciocinio(class="form-control") }}
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default">Go</button>
+
+    </div>
+</form>

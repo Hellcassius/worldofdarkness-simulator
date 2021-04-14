@@ -9,13 +9,19 @@ body {
 
 .text-title {
     font-family: Montserrat, sans-serif;
-    color: #535252;
+    color: #525253;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
     font-size: 50px;
     margin-top: 70px;
     margin-bottom: 20px;
+}
+
+.ficha {
+    height: 500px;
+    width: 500px;
+    background-color: #09098d; 
 }
 
 
